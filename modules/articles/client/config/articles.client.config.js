@@ -21,6 +21,11 @@
       state: 'articles.list'
     });
 
+		Menus.addSubMenuItem('topbar', 'articles', {
+			title: 'List Tutorials',
+			state: 'articles.listtutorials'
+		});
+		
     // Add the dropdown create item
     Menus.addSubMenuItem('topbar', 'articles', {
       title: 'Create Article',
